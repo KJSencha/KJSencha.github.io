@@ -1,0 +1,195 @@
+Sencha Cmd 6.2.0.48 - Crash report
+================================================
+An error occurred while executing the following command: generate app -classic ../../../mytest MyTest
+
+Diagnostic information:
+=======================
+                        app.sass.dynamic : true                                              
+                          cmd.config.dir : /Users/SenchaKevin/bin/Sencha/Cmd/6.2.0.48        
+                                 cmd.dir : /Users/SenchaKevin/bin/Sencha/Cmd/6.2.0.48        
+                    cmd.framework.minver : 5.5.0                                             
+                   cmd.framework.version : 99.99                                             
+                            cmd.jvm.args : -Xms128m -Xmx1024m -Dapple.awt.UIElement=true     
+              cmd.merge.tool.args.araxis : -wait -merge -3 -a1 {base} {user} {generated} {out}
+              cmd.merge.tool.args.kdiff3 : {base} {user} {generated} -o {out}                
+             cmd.merge.tool.args.p4merge : {base} {user} {generated} {out}                   
+           cmd.merge.tool.args.smartsync : {user} {generated} {base}                         
+          cmd.merge.tool.args.sourcegear : --merge --result={out} {user} {base} {generated}  
+            cmd.merge.tool.args.tortoise : -base:{base} -theirs:{generated} -mine:{user} -merged:{out}
+                              cmd.minver : 3.0.0.0                                           
+                            cmd.platform : osx                                               
+                     cmd.unicode.escapes : /Users/SenchaKevin/bin/Sencha/Cmd/6.2.0.48/unicode-escapes.json
+                             cmd.version : 6.2.0.48                                          
+                            cmd.web.port : 1841                                              
+                                 ext.dir : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602
+                        ext.license.name : commercial                                        
+                     framework.build.dir : ${package.output.base}                            
+                     framework.classpath : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/src
+                    framework.cmd.minver : 6.0.3.46                                          
+                   framework.cmd.version : 6.0.3.46                                          
+                 framework.compatVersion : 6.0.0                                             
+                    framework.config.dir : /Users/SenchaKevin/bin/Sencha/Cmd/6.2.0.48/plugins/ext/current
+                       framework.creator : Sencha                                            
+           framework.detailedDescription : Sencha Ext JS JavaScript Framework                
+                           framework.dir : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602
+                  framework.example.apps : admin-dashboard,executive-dashboard,feed-viewer,kitchensink,classic/charts-kitchensink,classic/desktop,classic/ticket-app,classic/portal,classic/simple-tasks,classic/responsive-app,classic/aria,modern/addressbook,modern/blackberry,modern/energy,modern/stockapp,modern/states,modern/geocongress,modern/oreilly
+                framework.example.apps.0 : admin-dashboard                                   
+                framework.example.apps.1 : executive-dashboard                               
+               framework.example.apps.10 : classic/aria                                      
+               framework.example.apps.11 : modern/addressbook                                
+               framework.example.apps.12 : modern/blackberry                                 
+               framework.example.apps.13 : modern/energy                                     
+               framework.example.apps.14 : modern/stockapp                                   
+               framework.example.apps.15 : modern/states                                     
+               framework.example.apps.16 : modern/geocongress                                
+               framework.example.apps.17 : modern/oreilly                                    
+                framework.example.apps.2 : feed-viewer                                       
+                framework.example.apps.3 : kitchensink                                       
+                framework.example.apps.4 : classic/charts-kitchensink                        
+                framework.example.apps.5 : classic/desktop                                   
+                framework.example.apps.6 : classic/ticket-app                                
+                framework.example.apps.7 : classic/portal                                    
+                framework.example.apps.8 : classic/simple-tasks                              
+                framework.example.apps.9 : classic/responsive-app                            
+           framework.example.apps.length : 18                                                
+                  framework.example.path : examples,templates                                
+                framework.example.path.0 : examples                                          
+                framework.example.path.1 : templates                                         
+           framework.example.path.length : 2                                                 
+                        framework.format : 1                                                 
+                          framework.isV5 : true                                              
+                          framework.isV6 : true                                              
+                          framework.name : ext                                               
+                     framework.namespace : Ext                                               
+                        framework.output : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/build
+                     framework.overrides : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/overrides
+                  framework.packages.dir : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/packages/,/Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/${toolkit.name}
+                framework.resource.paths : resources                                         
+              framework.resource.paths.0 : resources                                         
+         framework.resource.paths.length : 1                                                 
+                      framework.sass.etc : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/sass/etc/all.scss
+                  framework.sass.fashion : true                                              
+                framework.sass.namespace : Ext                                               
+                      framework.sass.src : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/sass/src
+                      framework.sass.var : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/sass/var
+                       framework.subpkgs : classic/classic,modern/modern,packages/charts,packages/amf,packages/soap,packages/ux,packages/legacy,packages/font-awesome,packages/font-pictos,packages/font-ext
+                     framework.subpkgs.0 : classic/classic                                   
+                     framework.subpkgs.1 : modern/modern                                     
+                     framework.subpkgs.2 : packages/charts                                   
+                     framework.subpkgs.3 : packages/amf                                      
+                     framework.subpkgs.4 : packages/soap                                     
+                     framework.subpkgs.5 : packages/ux                                       
+                     framework.subpkgs.6 : packages/legacy                                   
+                     framework.subpkgs.7 : packages/font-awesome                             
+                     framework.subpkgs.8 : packages/font-pictos                              
+                     framework.subpkgs.9 : packages/font-ext                                 
+                framework.subpkgs.length : 10                                                
+                       framework.summary : Ext JS                                            
+                          framework.type : framework                                         
+                       framework.version : 6.0.2.437                                         
+                       inspector.address : http://localhost:1839/                            
+                      package.base.names :                                                   
+                   package.base.packages :                                                   
+                       package.build.dir : ${package.output.base}                            
+                       package.classpath : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/src
+                     package.cmd.version : 6.0.1.67                                          
+                   package.compatVersion : 6.0.0                                             
+                      package.config.dir : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/.sencha/package
+                         package.creator : Sencha                                            
+             package.detailedDescription : Sencha Ext JS JavaScript Framework                
+                             package.dir : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602
+                    package.example.apps : admin-dashboard,executive-dashboard,feed-viewer,kitchensink,classic/charts-kitchensink,classic/desktop,classic/ticket-app,classic/portal,classic/simple-tasks,classic/responsive-app,classic/aria,modern/addressbook,modern/blackberry,modern/energy,modern/stockapp,modern/states,modern/geocongress,modern/oreilly
+                  package.example.apps.0 : admin-dashboard                                   
+                  package.example.apps.1 : executive-dashboard                               
+                 package.example.apps.10 : classic/aria                                      
+                 package.example.apps.11 : modern/addressbook                                
+                 package.example.apps.12 : modern/blackberry                                 
+                 package.example.apps.13 : modern/energy                                     
+                 package.example.apps.14 : modern/stockapp                                   
+                 package.example.apps.15 : modern/states                                     
+                 package.example.apps.16 : modern/geocongress                                
+                 package.example.apps.17 : modern/oreilly                                    
+                  package.example.apps.2 : feed-viewer                                       
+                  package.example.apps.3 : kitchensink                                       
+                  package.example.apps.4 : classic/charts-kitchensink                        
+                  package.example.apps.5 : classic/desktop                                   
+                  package.example.apps.6 : classic/ticket-app                                
+                  package.example.apps.7 : classic/portal                                    
+                  package.example.apps.8 : classic/simple-tasks                              
+                  package.example.apps.9 : classic/responsive-app                            
+             package.example.apps.length : 18                                                
+                    package.example.path : examples,templates                                
+                  package.example.path.0 : examples                                          
+                  package.example.path.1 : templates                                         
+             package.example.path.length : 2                                                 
+                          package.format : 1                                                 
+                            package.name : ext                                               
+                       package.namespace : Ext                                               
+                          package.output : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/build
+                       package.overrides : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/overrides
+                  package.requires.names :                                                   
+               package.requires.packages :                                                   
+                  package.resource.paths : resources                                         
+                package.resource.paths.0 : resources                                         
+           package.resource.paths.length : 1                                                 
+                    package.sass.dynamic : true                                              
+                        package.sass.etc : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/sass/etc/all.scss
+                    package.sass.fashion : true                                              
+                  package.sass.namespace : Ext                                               
+                        package.sass.src : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/sass/src
+                        package.sass.var : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/sass/var
+                         package.subpkgs : classic/classic,modern/modern,packages/charts,packages/amf,packages/soap,packages/ux,packages/legacy,packages/font-awesome,packages/font-pictos,packages/font-ext
+                       package.subpkgs.0 : classic/classic                                   
+                       package.subpkgs.1 : modern/modern                                     
+                       package.subpkgs.2 : packages/charts                                   
+                       package.subpkgs.3 : packages/amf                                      
+                       package.subpkgs.4 : packages/soap                                     
+                       package.subpkgs.5 : packages/ux                                       
+                       package.subpkgs.6 : packages/legacy                                   
+                       package.subpkgs.7 : packages/font-awesome                             
+                       package.subpkgs.8 : packages/font-pictos                              
+                       package.subpkgs.9 : packages/font-ext                                 
+                     package.subpkgs.dir : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602
+                  package.subpkgs.length : 10                                                
+                         package.summary : Ext JS                                            
+                            package.type : framework                                         
+                         package.version : 6.0.2.437                                         
+                          repo.local.dir : /Users/SenchaKevin/bin/Sencha/Cmd/repo            
+                           skip.examples : 1                                                 
+        system.java.net.useSystemProxies : true                                              
+                     workspace.build.dir : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/build
+                    workspace.config.dir : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/.sencha/workspace
+                           workspace.dir : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602
+                  workspace.packages.dir : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/packages
+                 workspace.subpkg.prefix : /Applications/XAMPP/xamppfiles/htdocs/SenchaSoftware/frameworks/extjs_602/build/${toolkit.name}
+
+Exception information:
+=======================
+String index out of range: 1
+     at java.lang.String.substring(String.java:1951)
+     at com.sencha.util.StringUtil.capitalize(StringUtil.java:582)
+     at com.sencha.util.NameUtil$1.process(NameUtil.java:64)
+     at com.sencha.util.NameUtil$1.process(NameUtil.java:58)
+     at com.sencha.util.CollectionUtil.apply(CollectionUtil.java:110)
+     at com.sencha.util.CollectionUtil$MonadicList.apply(CollectionUtil.java:236)
+     at com.sencha.util.NameUtil.stringToNamespace(NameUtil.java:58)
+     at com.sencha.command.generator.GeneratorCommands$AppCommand.validateAppName(GeneratorCommands.java:477)
+     at com.sencha.command.generator.GeneratorCommands$AppCommand.execute(GeneratorCommands.java:341)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.command.BasePluginCommands$BasePluginCommand.dispatch(BasePluginCommands.java:260)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:79)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+     at java.lang.reflect.Method.invoke(Method.java:497)
+     at com.exe4j.runtime.LauncherEngine.launch(Unknown Source)
+     at com.install4j.runtime.launcher.UnixLauncher.main(Unknown Source)
+
