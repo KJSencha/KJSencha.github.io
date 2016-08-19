@@ -1,7 +1,24 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <title>Simple popup test</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <button id="testButton">Test</button>
+<script type="text/javascript">
+
+function onTestButtonClick() {
+    window.open('http://wilkeglobal.com');
+}
+
+function onWindowLoad() {
+    var testButton = document.getElementById('testButton');
+
+    testButton.addEventListener('click', onTestButtonClick);
+}
+
+window.addEventListener('load', onWindowLoad);
+
+</script>
 </body>
 </html>
