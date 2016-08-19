@@ -1,24 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Simple popup test</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>Simple ExtJS Popup</title>
+  <link rel="stylesheet" type="text/css" href="../ext-6.0.2/build/classic/theme-triton/resources/theme-triton-all-debug.css">
 </head>
 <body>
-  <button id="testButton">Test</button>
+<script type="text/javascript" charset="UTF-8" src="../ext-6.0.2/build/ext-all-debug.js"></script>
+<script type="text/javascript" charset="UTF-8" src="../ext-6.0.2/build/classic/theme-triton/theme-triton-debug.js"></script>
 <script type="text/javascript">
-
-function onTestButtonClick() {
-    window.open('http://wilkeglobal.com');
-}
-
-function onWindowLoad() {
-    var testButton = document.getElementById('testButton');
-
-    testButton.addEventListener('click', onTestButtonClick);
-}
-
-window.addEventListener('load', onWindowLoad);
-
+  // Make sure any dynamically loaded classes come from the right place
+  Ext.Loader.addClassPathMappings({
+    "SimplePopup": "/simplePopup/SimplePopup"
+  });
+  Ext.application('SimplePopup.Application');
 </script>
 </body>
 </html>
